@@ -15,9 +15,15 @@ public class GoodsApp {
 		
 		Goods goods2 = new Goods();
 		Goods goods3 = new Goods();
+		System.out.println(Goods.countOfGoods);
 		
 		camera.setPrice(400000);
-		System.out.println(camera.calcDiscountPrice(0));
+		System.out.println(camera.calcDiscountPrice(0.5f));
+		
+		//TV
+		Goods tv = new Goods("TV", 400000, 10, 20);
+		tv.printInfo();
 	}
 
+	
 }
