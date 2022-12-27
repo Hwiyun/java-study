@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public                                                                                                            class FileCopy {
+public class FileCopy {
 
 	public static void main(String[] args) {
 		for(String arg : args) {
@@ -18,8 +18,8 @@ public                                                                          
 		OutputStream os = null;
 		
 		try {
-			is = new FileInputStream("loopy.png");
-			os = new FileOutputStream("loopy.copy.png");
+			is = new FileInputStream("loopy.jpg");
+			os = new FileOutputStream("loopy.copy.jpg");
 			
 			int data = -1;
 			while((data = is.read()) != -1) {
