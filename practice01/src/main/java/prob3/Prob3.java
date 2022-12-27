@@ -20,7 +20,7 @@ public class Prob3 {
 		
 		else {
 			for(int j=1;j<=num;j++)
-				if(j%2 !== 0);
+				if(j%2 != 0);
 		}
 		System.out.println("결과 값 :" + sum);
 		}

@@ -1,4 +1,4 @@
-package prob5;
+package com.douzone.paint.collection;
 
 public class MyStackException extends Exception {
 

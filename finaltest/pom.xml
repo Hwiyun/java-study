@@ -5,16 +5,8 @@
     <artifactId>java-study</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>chapter04</artifactId>
-  
+  <artifactId>finaltest</artifactId>
   <build>
-	  <finalName>chapter04</finalName>
+	  <finalName>finaltest</finalName>
   </build>
-  <dependencies>
-  	<dependency>
-  		<groupId>com.douzone</groupId>
-  		<artifactId>chapter03</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
 </project>
